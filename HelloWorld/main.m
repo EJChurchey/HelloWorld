@@ -8,10 +8,17 @@
 
 #import <Foundation/Foundation.h>
 
+int work () {
+
+@autoreleasepool {
+    // insert code here...
+    NSLog(@"Hello, EJ!");
+
+}
+    return 0;}
+
 int main(int argc, const char * argv[]) {
-    @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
-    }
-    return 0;
+    
+    return work ();
+    
 }

@@ -15,7 +15,7 @@ int work () {
         if (x>=10) {
             NSLog(@"%i",x);
         }else   {
-            NSLog(@"Hello, REV!");
+            NSLog(@"Hello, LIZ!");
         }
     }
     return 0;

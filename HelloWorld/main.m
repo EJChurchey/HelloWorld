@@ -9,16 +9,20 @@
 #import <Foundation/Foundation.h>
 
 int work () {
-
-@autoreleasepool {
+    int x =10;
+    @autoreleasepool {
     // insert code here...
-    NSLog(@"Hello, EJ!");
-
+        if (x>=10) {
+            NSLog(@"%i",x);
+        }else   {
+            NSLog(@"Hello, EJ!");
+        }
+    }
+    return 0;
 }
-    return 0;}
 
 int main(int argc, const char * argv[]) {
     
     return work ();
     
-}
+}git@github.com:EJChurchey/HelloWorld.git
